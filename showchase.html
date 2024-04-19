@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahad Showcase</title>
+    <link rel="stylesheet" href="showcase.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div class="header">
+      <h2>SHOWCASE</h2>
+    </div>
+    <!-- HEADER END-->
+    <!-- Main body -->
+    <div class="main">
+      <!-- driver card start -->
+      <div class="card1">
+        <h2>Driving Age Test</h2>
+        <p>This is a simple driving age calculator</p>
+        <form id="myform">
+          <label for="ageinput">AGE</label>
+          <input type="number" id="ageinput" style="width: 80%" />
+          <input
+            type="button"
+            value="CHECK"
+            style="width: 100%"
+            onclick="checkAge()"
+          />
+        </form>
+        <p id="result"><b>RESULTS</b></p>
+      </div>
+      <!-- driver card end -->
+
+      <!-- odd even start-->
+      <div class="card1">
+        <h2>ODD OR EVEN TEST</h2>
+        <p>This is a simple test for odd and even</p>
+        <form id="myform">
+          <label for="numinput">NUM</label>
+          <input type="number" id="numinput" style="width: 80%" />
+          <input
+            type="button"
+            value="CHECK"
+            style="width: 100%"
+            onclick="numCheck()"
+          />
+        </form>
+        <p id="result1"><b>RESULTS</b></p>
+      </div>
+      <!-- odd even end -->
+
+      <!-- grade checker start -->
+      <div class="card1">
+        <h2>GRADE CHECKER</h2>
+        <p>Simply check your grade</p>
+        <form id="myform">
+          <label for="gradeinput">GRADE</label>
+          <input type="text" id="gradeinput" style="width: 80%" maxlength="2" />
+          <input
+            type="button"
+            value="CHECK"
+            style="width: 100%"
+            onclick="gradeCheck()"
+          />
+        </form>
+        <p id="results2"><b>RESULTS</b></p>
+      </div>
+      <!-- grade checker ends-->
+    </div>
+  </body>
+</html>
