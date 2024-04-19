@@ -4,11 +4,11 @@
 }
 @font-face {
   font-family: title;
-  src: url(/fonts/klavika-medium.otf);
+  src: url(klavika-medium.otf);
 }
 @font-face {
   font-family: lighte;
-  src: url(/fonts/klavika-light.otf);
+  src: url(klavika-light.otf);
 }
 .header {
   height: 5rem;
